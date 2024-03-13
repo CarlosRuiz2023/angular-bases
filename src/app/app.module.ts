@@ -10,6 +10,6 @@ import { HeroesModule } from './heroes/heroes.module';
   declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, CounterModule, HeroesModule],
   providers: [],
-  bootstrap: [AppComponent, HeroesModule],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
